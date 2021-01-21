@@ -39,7 +39,7 @@ class App extends Component {
           handleFilterChange={option => this.updateFilterOption(option)}
           />
         <FilterableList
-          files={this.props.files}
+          files={this.state.files}
           searchTerm={this.state.searchTerm}
           filterOption={this.state.filterOption}
           />
